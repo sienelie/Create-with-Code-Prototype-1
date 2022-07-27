@@ -6,13 +6,7 @@ public class FollowPlayer : MonoBehaviour
 {
     // declare variables
     public GameObject player;
-    private Vector3 offset = new Vector3(0, 6, -12);
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Vector3 offset = new Vector3(0, 6, -12);
 
     // Update is called once per frame
 	// but the vehicle moves once per time because of deltaTime
